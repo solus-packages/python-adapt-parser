@@ -1,0 +1,16 @@
+name       : python-adapt-parser
+version    : 0.3.0
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/36/a4/3ef82c754a8fb079a98d0adb66be1e3dc7a42d6faafdf1f106924a48c352/adapt-parser-0.3.0.tar.gz : 9445c9be4fcf3c519d1fbc605ea289349e11c2eb581db72242b61d12cc4d337f
+license    : Apache-2.0
+component  : programming.python
+summary    : The Adapt Intent Parser is a flexible and extensible intent definition and determination framework
+description: |
+    Adapt is an intent parser – meaning that it is a library for converting natural language into machine-readable data structures, such as JSON. The Adapt Intent Parser is open source software. It is lightweight and is designed to run on devices with limited computing resources, such as embedded devices.
+builddeps  :
+    - pkgconfig(python3)
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
