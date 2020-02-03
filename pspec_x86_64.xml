@@ -2,8 +2,8 @@
     <Source>
         <Name>python-adapt-parser</Name>
         <Packager>
-            <Name>Fabio Forni</Name>
-            <Email>livingsilver94.solus@redaril.me</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.python</PartOf>
@@ -19,42 +19,42 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__pycache__/context.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__pycache__/engine.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__pycache__/entity_tagger.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__pycache__/expander.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__pycache__/intent.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/__pycache__/parser.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/context.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/engine.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/entity_tagger.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/expander.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/intent.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/parser.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/text/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/text/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/text/__pycache__/tokenizer.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/text/__pycache__/trie.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/text/tokenizer.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt/tools/text/trie.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt_parser-0.3.3-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt_parser-0.3.3-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt_parser-0.3.3-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt_parser-0.3.3-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/adapt_parser-0.3.3-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__pycache__/context.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__pycache__/engine.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__pycache__/entity_tagger.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__pycache__/expander.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__pycache__/intent.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/__pycache__/parser.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/context.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/engine.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/entity_tagger.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/expander.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/intent.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/parser.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/text/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/text/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/text/__pycache__/tokenizer.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/text/__pycache__/trie.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/text/tokenizer.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt/tools/text/trie.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt_parser-0.3.3-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt_parser-0.3.3-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt_parser-0.3.3-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt_parser-0.3.3-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/adapt_parser-0.3.3-py3.7.egg-info/top_level.txt</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2019-08-15</Date>
+        <Update release="3">
+            <Date>2020-01-25</Date>
             <Version>0.3.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Fabio Forni</Name>
-            <Email>livingsilver94.solus@redaril.me</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
